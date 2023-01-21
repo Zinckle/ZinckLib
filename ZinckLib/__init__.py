@@ -1,3 +1,3 @@
-from ZinckLib.splitString import SplitString
-from ZinckLib.toNumber import ToNumber
-from ZinckLib.toLetter import ToLetter
+from ZinckLib.splitString import splitString
+from ZinckLib.toNumber import toNumber
+from ZinckLib.toLetter import toLetter
