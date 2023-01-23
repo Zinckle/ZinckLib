@@ -12,6 +12,9 @@ def toNumber(toConv):
     :return: the string/list/number that represents the given string.
     :rtype: a list of ints
     """
+    if type(toConv) is not str:
+        raise TypeError('Only strings are allowed')
+
     toConv = toConv.upper()
     toConv = splitString(toConv)
     out = []

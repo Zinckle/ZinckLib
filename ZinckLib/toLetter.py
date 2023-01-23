@@ -11,8 +11,13 @@ def toLetter(valList):
     :return: this list combined into a string
     :rtype: string
     """
+    if type(valList) is not list:
+        raise TypeError('Only integer lists are allowed')
+
     output = ""
     for val in valList:
+        if type(val) is not int:
+            raise TypeError('Only integer lists are allowed')
         if 0 < val <= 26:
             val = chr(96+val)
         elif val == 0:

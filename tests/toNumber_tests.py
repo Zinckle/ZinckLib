@@ -24,6 +24,10 @@ class ToNumbersTestCases(unittest.TestCase):
         result = toNumber("abc")
         self.assertEqual(result, [1, 2, 3])
 
+    def test_invalidType(self):
+        with self.assertRaises(TypeError):
+            toNumber(1)
+
 
 if __name__ == '__main__':
     unittest.main()

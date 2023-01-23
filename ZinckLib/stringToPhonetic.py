@@ -12,6 +12,8 @@ def toPhonetic(toConv):
     :return: the phonetic version of the original string
     :rtype: list of strings
     """
+    if type(toConv) is not list:
+        raise TypeError('Only integer lists are allowed')
 
     phoneticDict = {
         "a": "Alfa",

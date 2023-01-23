@@ -24,6 +24,18 @@ class ToLetterTestCases(unittest.TestCase):
         result = toLetter([1, 2, 3])
         self.assertEqual(result, "abc")
 
+    def test_invalidType(self):
+        with self.assertRaises(TypeError):
+            toLetter("p")
+
+    def test_invalidTypeAloneInList(self):
+        with self.assertRaises(TypeError):
+            toLetter(["p"])
+
+    def test_invalidTypeMixedInList(self):
+        with self.assertRaises(TypeError):
+            toLetter([1, 2, "p"])
+
 
 
 if __name__ == '__main__':

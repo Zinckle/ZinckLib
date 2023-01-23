@@ -11,4 +11,6 @@ def splitString(string):
             :return: the string split into individual chars
             :rtype: list of strings
             """
+    if type(string) is not str:
+        raise TypeError('Only strings are allowed')
     return [char for char in string]

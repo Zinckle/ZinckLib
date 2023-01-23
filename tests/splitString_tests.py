@@ -16,6 +16,10 @@ class SplitStringTestCases(unittest.TestCase):
         result = splitString("p")
         self.assertEqual(result, ["p"])
 
+    def test_invalidType(self):
+        with self.assertRaises(TypeError):
+            splitString(1)
+
 
 if __name__ == '__main__':
     unittest.main()
