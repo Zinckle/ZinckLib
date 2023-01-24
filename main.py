@@ -3,6 +3,6 @@ from ZinckLib import *
 
 if __name__ == '__main__':
 
-    print(toLetter(["1"]))
+    print(primeList(1000))
 
 
