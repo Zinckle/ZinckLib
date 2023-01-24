@@ -3,7 +3,7 @@ from ZinckLib import *
 
 def isAlphabetical(toCheck):
     """
-    checks to see if a given string is in alphabetical order
+    Checks to see if a given string is in alphabetical order
 
     :param toCheck: the string to be checked
     :type toCheck: str

@@ -11,6 +11,8 @@ def primeList(maxVal):
     :return: A list of prime numbers less than a specified value
     :rtype: list of ints
     """
+    if type(maxVal) is not int:
+        raise TypeError('Only integers are allowed')
     intList = list(range(2, maxVal))
     maxCheck = int(maxVal ** 0.5)
     for i in range(2, maxCheck):
