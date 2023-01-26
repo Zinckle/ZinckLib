@@ -11,7 +11,7 @@ class StringToPhoneticTestCases(unittest.TestCase):
     def test_invalidType(self):
         with self.assertRaises(TypeError):
             stringToPhonetic(1)
-    
+
     def test_oneChar(self):
         result = stringToPhonetic("a")
         self.assertEqual(result, ["Alfa"])
@@ -27,6 +27,7 @@ class StringToPhoneticTestCases(unittest.TestCase):
     def test_stringGarbage(self):
         result = stringToPhonetic("Py2t^ho0n!")
         self.assertEqual(result, ['Papa', 'Yankee', '2', 'Tango', '^', 'Hotel', 'Oscar', '0', 'November', '!'])
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -12,10 +12,13 @@ def primeList(maxVal):
     :rtype: list of ints
     """
     if type(maxVal) is not int:
-        raise TypeError('Only integers are allowed')
+        raise TypeError('Only positive integers are allowed')
+    if maxVal < 0:
+        raise TypeError('Only positive integers are allowed')
+
     intList = list(range(2, maxVal))
     maxCheck = int(maxVal ** 0.5)
-    for i in range(2, maxCheck):
+    for i in range(2, maxCheck+1):
         for ints in intList:
             if ints % i == 0 and not(ints == i):
                 intList.remove(ints)
