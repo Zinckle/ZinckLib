@@ -1,9 +1,9 @@
 from ZinckLib import *
 
 
-def toPhonetic(toConv):
+def stringToPhonetic(toConv):
     """
-    converts a string to a list of strings where all the letters are replaced with their representation in the NATO
+    Converts a string to a list of strings where all the letters are replaced with their representation in the NATO
     phonetic alphabet according to: https://en.wikipedia.org/wiki/NATO_phonetic_alphabet#Tables
 
     :param toConv: The string to be converted.
@@ -12,8 +12,8 @@ def toPhonetic(toConv):
     :return: the phonetic version of the original string
     :rtype: list of strings
     """
-    if type(toConv) is not list:
-        raise TypeError('Only integer lists are allowed')
+    if type(toConv) is not str:
+        raise TypeError('Only strings are allowed')
 
     phoneticDict = {
         "a": "Alfa",

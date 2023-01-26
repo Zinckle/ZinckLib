@@ -2,6 +2,6 @@ from ZinckLib import *
 
 if __name__ == '__main__':
 
-    print(primeList(1000))
+    print(stringToPhonetic("Py2t^ho0n!"))
 
 
