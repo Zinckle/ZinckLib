@@ -11,8 +11,8 @@ def isAlphabetical(toCheck):
     :return: true or false if it is alphabetical
     :rtype: boolean
     """
-    if type(toCheck) is not list:
-        raise TypeError('Only integer lists are allowed')
+    if type(toCheck) is not str:
+        raise TypeError('Only strings are allowed')
     toCheck = toCheck.lower()
     lastOrd = 96
     for char in toCheck:
