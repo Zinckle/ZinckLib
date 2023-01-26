@@ -1,3 +1,6 @@
+from src.ZinckLib import splitString
+
+
 def toNumber(toConv):
     """
     converts a string to a list of ints representing the number(i.e. 1 = a, 2 = b, ..., 26 = z) with 0 representing
