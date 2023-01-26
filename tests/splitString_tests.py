@@ -1,5 +1,5 @@
 import unittest
-from ZinckLib import splitString
+from src.ZinckLib import splitString
 
 
 class SplitStringTestCases(unittest.TestCase):

@@ -1,5 +1,5 @@
 import unittest
-from ZinckLib import primeList
+from src.ZinckLib import primeList
 
 
 class PrimeListTestCases(unittest.TestCase):

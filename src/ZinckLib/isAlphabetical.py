@@ -1,6 +1,3 @@
-from ZinckLib import *
-
-
 def isAlphabetical(toCheck):
     """
     Checks to see if a given string is in alphabetical order

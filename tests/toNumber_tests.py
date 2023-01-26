@@ -1,5 +1,5 @@
 import unittest
-from ZinckLib import toNumber
+from src.ZinckLib import toNumber
 
 
 class ToNumbersTestCases(unittest.TestCase):

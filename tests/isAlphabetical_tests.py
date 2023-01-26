@@ -1,5 +1,5 @@
 import unittest
-from ZinckLib import isAlphabetical
+from src.ZinckLib import isAlphabetical
 
 
 class IsAlphabeticalTestCases(unittest.TestCase):

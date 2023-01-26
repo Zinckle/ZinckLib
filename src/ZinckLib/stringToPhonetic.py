@@ -1,6 +1,3 @@
-from ZinckLib import *
-
-
 def stringToPhonetic(toConv):
     """
     Converts a string to a list of strings where all the letters are replaced with their representation in the NATO

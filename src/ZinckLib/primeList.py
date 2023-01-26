@@ -1,6 +1,3 @@
-from ZinckLib import *
-
-
 def primeList(maxVal):
     """
     sieve of eratosthenes

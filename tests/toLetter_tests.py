@@ -1,5 +1,5 @@
 import unittest
-from ZinckLib import toLetter
+from src.ZinckLib import toLetter
 
 
 class ToLetterTestCases(unittest.TestCase):

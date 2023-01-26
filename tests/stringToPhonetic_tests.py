@@ -1,5 +1,5 @@
 import unittest
-from ZinckLib import stringToPhonetic
+from src.ZinckLib import stringToPhonetic
 
 
 class StringToPhoneticTestCases(unittest.TestCase):

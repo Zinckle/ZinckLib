@@ -1,6 +1,3 @@
-from ZinckLib import *
-
-
 def splitString(string):
     """
     Splits a string into a list of chars
