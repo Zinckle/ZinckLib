@@ -1,7 +1,7 @@
 from src.ZinckLib import splitString
 
 
-def toNumber(toConv):
+def toNumber(toConv: str):
     """
     converts a string to a list of ints representing the number(i.e. 1 = a, 2 = b, ..., 26 = z) with 0 representing
     any spaces and any non letter values not being converted.

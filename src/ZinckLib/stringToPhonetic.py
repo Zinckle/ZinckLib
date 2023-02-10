@@ -1,4 +1,4 @@
-def stringToPhonetic(toConv):
+def stringToPhonetic(toConv: str):
     """
     Converts a string to a list of strings where all the letters are replaced with their representation in the NATO
     phonetic alphabet according to: https://en.wikipedia.org/wiki/NATO_phonetic_alphabet#Tables

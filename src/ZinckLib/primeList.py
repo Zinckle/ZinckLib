@@ -1,4 +1,4 @@
-def primeList(maxVal):
+def primeList(maxVal: int):
     """
     sieve of eratosthenes
 

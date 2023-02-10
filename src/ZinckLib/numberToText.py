@@ -1,4 +1,4 @@
-def numberToText(num):
+def numberToText(num: int):
     """
     s
 

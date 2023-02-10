@@ -1,4 +1,4 @@
-def toLetter(valList):
+def toLetter(valList: list[int]):
     """
     Takes a list of ints and combines them into one string based (1 = a, 2 = b, ..., 26 = z) with spaces being 0
 

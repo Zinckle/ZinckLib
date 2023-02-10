@@ -1,4 +1,4 @@
-def splitString(string):
+def splitString(string: str):
     """
     Splits a string into a list of chars
 

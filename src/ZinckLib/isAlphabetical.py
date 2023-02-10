@@ -1,4 +1,4 @@
-def isAlphabetical(toCheck):
+def isAlphabetical(toCheck: str):
     """
     Checks to see if a given string is in alphabetical order
 
@@ -19,6 +19,3 @@ def isAlphabetical(toCheck):
                 return False
             lastOrd = orded
     return True
-
-
-
