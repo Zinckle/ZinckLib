@@ -1,16 +1,15 @@
 def numberToText(num: int):
     """
-    s
+    Takes in an integer and converts it to the written version of the number. for example, 1 = one or 10 = ten
 
-    :param num:
-    :type num:
+    :param num: the number you want to convert
+    :type num: int
 
-    :return:
-    :rtype:
+    :return: the text version of a given number
+    :rtype: string
     """
     if (type(num) is not int) or num < 0 or num > 999999999999999999999999999999999999:
         raise TypeError('Only positive integers less than 999 decillion are allowed')
-
 
     if num == 0:
         return "zero"

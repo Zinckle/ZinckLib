@@ -1,11 +1,12 @@
 def primeList(maxVal: int):
     """
-    sieve of eratosthenes
+    takes in an integer and uses the sieve of eratosthenes to calculate and return a list of prime numbers less than or
+    equal to the provided number
 
     :param maxVal: The maximum value for the prime list
     :type maxVal: int
 
-    :return: A list of prime numbers less than a specified value
+    :return: A list of prime numbers less than or equal to a specified value
     :rtype: list of ints
     """
     if type(maxVal) is not int:

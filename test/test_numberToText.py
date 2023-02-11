@@ -12,6 +12,22 @@ class NumberToTextTestCases(unittest.TestCase):
         with self.assertRaises(TypeError):
             numberToText("a")
 
+    def test_empty(self):
+        with self.assertRaises(TypeError):
+            numberToText()
+
+    def test_longerNum(self):
+        result = numberToText(123)
+        self.assertEqual(result, "one hundred twenty three")
+
+    def test_tooLongNum(self):
+        with self.assertRaises(TypeError):
+            numberToText(9999999999999999999999999999999999999)
+
+    def test_tooSmallNum(self):
+        with self.assertRaises(TypeError):
+            numberToText(-1)
+
 
 if __name__ == '__main__':
     unittest.main()
