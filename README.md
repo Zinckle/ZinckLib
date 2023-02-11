@@ -6,6 +6,8 @@ a given value or determining if a string is in alphabetical order.
 
 The repository can be found at: https://github.com/Zinckle/ZinckLib
 
+The library is hosted here: https://pypi.org/project/ZinckLib/
+
 You can check out my portfolio here: https://zinck.xyz
 
 If there is anything you think I should add or anything you think I should change, feel free to reach out!
