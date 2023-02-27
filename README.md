@@ -10,4 +10,6 @@ The library is hosted here: https://pypi.org/project/ZinckLib/
 
 You can check out my portfolio here: https://zinck.xyz
 
+[![Downloads](https://static.pepy.tech/badge/zincklib)](https://pepy.tech/project/zincklib)
+
 If there is anything you think I should add or anything you think I should change, feel free to reach out!
