@@ -25,5 +25,7 @@ Contents
    magicNumber
    numberToText
    primeList
-
-
+   splitString
+   stringToPhonetic
+   toLetter
+   toNumber
