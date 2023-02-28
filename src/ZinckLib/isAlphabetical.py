@@ -8,7 +8,6 @@ def isAlphabetical(toCheck: str):
     :return: true or false if it is alphabetical
     :rtype: boolean
     """
-
     if type(toCheck) is not str:
         raise TypeError('Only strings are allowed')
     toCheck = toCheck.lower()
