@@ -17,9 +17,9 @@ You can check out my portfolio here: https://zinck.xyz
 
 Contents
 --------
-* :ref:`search`
-
 .. toctree::
+    :maxdepth: 2
+    :titlesonly:
 
    isAlphabetical
    magicNumber
