@@ -26,4 +26,4 @@ Contents
    primeList
 
 .. autoclass:: src.ZinckLib.isAlphabetical
-    :members:
+    isAlphabetical
