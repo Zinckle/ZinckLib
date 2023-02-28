@@ -18,7 +18,6 @@ You can check out my portfolio here: https://zinck.xyz
 Contents
 --------
 .. toctree::
-    :maxdepth: 2
     :titlesonly:
 
    isAlphabetical
