@@ -17,8 +17,7 @@ You can check out my portfolio here: https://zinck.xyz
 
 Contents
 --------
-.. toctree::
-    :titlesonly:
+.. toctree:: :titlesonly:
 
    isAlphabetical
    magicNumber
