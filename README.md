@@ -4,7 +4,7 @@ The main focus of this library is around the manipulation of strings between var
 converting a number to its written form. There are also some other tools like creating a list of prime numbers less than
 a given value or determining if a string is in alphabetical order.
 
-Documentation can be found at: zincklib.readthedocs.io
+Documentation can be found at: https://zincklib.readthedocs.io
 
 The repository can be found at: https://github.com/Zinckle/ZinckLib
 
