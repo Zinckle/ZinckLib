@@ -24,3 +24,6 @@ Contents
    magicNumber
    numberToText
    primeList
+
+.. autoclass:: src.ZinckLib.isAlphabetical
+    :members:
