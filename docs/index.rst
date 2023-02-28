@@ -25,5 +25,5 @@ Contents
    numberToText
    primeList
 
-.. autoclass:: src.ZinckLib.isAlphabetical
+.. automodule:: src.ZinckLib.isAlphabetical
     :members:
