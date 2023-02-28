@@ -1,6 +1,6 @@
 isAlphabetical
 ==============
-.. currentmodule:: src.ZinckLib
+.. currentmodule:: src.ZinckLib.isAlphabetical
 
-.. autoclass:: ZinckLib.isAlphabetical
+.. autoclass:: src.ZinckLib.isAlphabetical
     :members:
