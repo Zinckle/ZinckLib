@@ -1,2 +1,3 @@
 isAlphabetical
 ==============
+.. autofunction:: isAlphabetical
