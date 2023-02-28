@@ -17,6 +17,7 @@ You can check out my portfolio here: https://zinck.xyz
 
 Contents
 --------
+* :ref:`search`
 
 .. toctree::
 
@@ -25,5 +26,4 @@ Contents
    numberToText
    primeList
 
-.. automodule:: src.ZinckLib.isAlphabetical
-    :members:
+
