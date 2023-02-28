@@ -6,5 +6,4 @@ build:
     python: "3.8"
 
  formats:
-  - pdf
-  - epub
+  pdf
