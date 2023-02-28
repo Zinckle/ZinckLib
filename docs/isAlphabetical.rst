@@ -1,3 +1,3 @@
 isAlphabetical
 ==============
-.. autofunction:: isAlphabetical
+.. autofunction:: ZinckLib.isAlphabetical
