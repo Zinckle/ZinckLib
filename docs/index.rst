@@ -20,7 +20,7 @@ Contents
 .. toctree:: :titlesonly:
 
    isAlphabetical
-   morseToText
+   morseToChar
    numberToText
    primeList
    splitString
