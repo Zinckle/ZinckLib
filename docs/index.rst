@@ -20,7 +20,7 @@ Contents
 .. toctree:: :titlesonly:
 
    isAlphabetical
-   magicNumber
+   morseToText
    numberToText
    primeList
    splitString
